@@ -1,0 +1,386 @@
+﻿<!DOCTYPE html>
+<meta http-equiv="x-ua-compatible" content="IE=edge" />
+<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie10 lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122962025-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122962025-6');
+</script>
+
+  <meta charset="utf-8">  
+    <title>Jam.py Application Builder </title>
+    <link href="index2_files/Core.css" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="keywords" content="Python, JavaScript, JQuery, Bootstrap, framework, open-source, database"/>
+    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122962025-6"></script>;
+        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	                 })(window,document,'script','//www.googletagmanager.com/gtag/js?id=UA-122962025-6','ga');
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-122962025-6');
+        </script>
+	 <!--
+	  <script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-122962025-6', 'auto');
+            ga('send', 'pageview');
+         </script>
+	 -->
+
+
+</head>
+<body>
+    <div class="m-Header-Wrapper">
+    <header class="m-Header" id="m_Header">
+        <div class="m-Body-contentWrapper">
+            <div class="m-Header-branding">
+                <a href="index.html" class="m-Header-logo" title="Jam.py Application Builder">
+                    <span class="jam-logo"></span>
+                    <span class="jam-logo-stacked"></span>
+                    <span class="u-VisuallyHidden">Jam.py Application Builder</span>
+
+                </a>
+            </div>
+            <div class="m-Header-actions">
+               <div class="m-Header-lang">
+    <!--for="m_LangSelect"-->
+    <!-- id="m-LangSelect"-->
+    <label  class="m-Header-langLabel">语言</label>
+    <select class="m-Header-langSelect">
+        
+            <option value="index.html.en" >
+                English
+            </option>
+       
+            <option value="index.html.fr" >
+                Français
+            </option>
+	    
+            <option value="index.html.es" >
+                Español
+            </option>
+
+            <option value="index.html.pt" >
+              Português (Brasil) 
+            </option>
+
+            <option value="index.html.zh-cn" selected>
+              中文（简体) 
+            </option>
+
+      
+    </select>
+</div>
+
+
+            </div>
+        </div>
+    </header>
+</div>
+
+
+
+
+    
+<div class="js-getStarted-modal"></div>
+<div class="m-GetStarted-wrap">
+    <button class="js-Cancel-getStarted" type="button">&times;</button>
+<div class="m-Section m-Section--getStarted m-GetStarted">
+  
+  <div class="m-Section-row row">
+    <div class="m-Section-col col col-12">
+      <span class="jam-logo"></span>
+      <h2 class="m-Section-title">Jam.py Application Builder 入门</h2>
+    </div>
+  </div>
+  <div class="m-Section-row row">
+    <div class="m-Section-col col col-4">
+      <a href="https://github.com/jam-py/jam-py/archive/master.zip" target="_blank" class="m-ActionBlock" id="download_apex">
+        <div class="m-ActionBlock-wrap">
+          <div class="m-ActionBlock-graphic"><span class="m-ActionBlock-icon download"></span></div>
+          <div class="m-ActionBlock-content">
+            <h3 class="m-ActionBlock-title">下载 Jam.py</h3>
+            <p class="m-ActionBlock-desc">在任何Python最低版本2.7的平台上安装Jam.py。 支持Python版本3！ 所需的最小空间为18MB。</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="m-Section-col col col-4">
+      <a href="http://demo.jam-py.com" class="m-ActionBlock m-ActionBlock--featured" id="free_workspace">
+        <div class="m-ActionBlock-wrap">
+          <div class="m-ActionBlock-graphic"><span class="m-ActionBlock-icon workspace"></span></div>
+          <div class="m-ActionBlock-content">
+            <h3 class="m-ActionBlock-title">试试演示</h3>
+            <p class="m-ActionBlock-desc">全面的发票演示，您可以基于它开发下一个应用程序。.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="m-Section-col col col-4">
+      <a href="http://jam-py.com/docs/index.html" target="_blank" class="m-ActionBlock" id="oracle_cloud">
+        <div class="m-ActionBlock-wrap">
+          <div class="m-ActionBlock-graphic"><span class="m-ActionBlock-icon oracle-cloud"></span></div>
+          <div class="m-ActionBlock-content">
+            <h3 class="m-ActionBlock-title">看视频</h3>
+            <p class="m-ActionBlock-desc">我们准备了许多有关Jam.py框架的教程，以使您能够快速学习</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  
+</div>
+
+</div>
+<div class="apex-rds-container" style="display: none;">
+  <ul id="RDS" class="apex-rds">
+      <li class="apex-rds-item">
+    <a href="index.html#cloudhero">
+        <span></span>
+    </a>
+</li>
+      <li class="apex-rds-item">
+    <a href="index.html#hero">
+        <span></span>
+    </a>
+</li>
+      <li class="apex-rds-item">
+    <a href="index.html#m_Process">
+        <span></span>
+    </a>
+</li>
+      <li class="apex-rds-item">
+    <a href="index.html#m_Intro">
+        <span></span>
+    </a>
+</li>
+      <li class="apex-rds-item">
+    <a href="index.html#m_Develop">
+        <span></span>
+    </a>
+</li>
+      <li class="apex-rds-item">
+    <a href="index.html#m_Design">
+        <span></span>
+    </a>
+</li>
+      <li class="apex-rds-item">
+    <a href="index.html#m_Deploy">
+        <span></span>
+    </a>
+</li>
+      <li class="apex-rds-item">
+    <a href="index.html#m_PkgApps">
+        <span></span>
+    </a>
+</li>
+      <li class="apex-rds-item">
+    <a href="index.html#oracle">
+        <span></span>
+    </a>
+</li>
+      <li class="apex-rds-item">
+    <a href="index.html#m_LearnMore">
+        <span></span>
+    </a>
+</li>
+      <li class="apex-rds-item">
+    <a href="index.html#m_Closing">
+        <span></span>
+    </a>
+</li>
+  </ul>
+</div>
+
+<div id="cloudhero" class="m-CloudHero apex-bkgd">
+  <div class="m-Body-contentWrapper">
+    <div class="m-CloudHero-content">
+      <div class="m-CloudHero-mobileLogo apex-icon"></div>
+      <div class="m-CloudHero-title">Jam.py Application Builder</div>
+      <div class="m-CloudHero-subTitle">什么是 Jam.py? 是一个低代码开发平台，您可以在该平台上构建安全的企业应用。</div>
+      <button class="m-Button m-Button--hero m-Button--cloudHero">有兴趣? 点击这里!</button>
+    </div>
+    <div class="m-CloudHero-graphic">
+      <div class="m-CloudHero-icon apex-icon"></div>
+    </div>
+  </div>
+</div>
+
+<div id="hero" class="m-Hero">
+  <div class="m-Body-contentWrapper">
+    <div class="m-Hero-intro">
+      <p class="m-Hero-pitch">使用Jam.py，您可以创建，自定义，
+测试并共享适用于SQLite的出色，快速，有针对性的应用程序，
+Oracle，MySQL，PostgreSQL和Firebird。 所有这些都是免费的，不需要锁定供应商!</p>
+    </div>
+    <div class="m-Hero-branding">
+      <div class="m-Hero-graphic">
+        <img src="../assets/img/builder-small.png" alt="">
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="m-Section m-Section--gray">
+  <div class="m-Body-contentWrapper" id="m_Process" >
+	  <h2 class="m-Section-title">从构思到网站建成只需极短时间</h2>
+		<div class="m-Section-row row">
+			<div class="col col-4 m-Section-col">
+			  <span class="m-Section-arrow to-design arrow"></span>
+			  <span class="m-Section-arrow to-develop arrow"></span>
+				<div class="m-Media m-Media--stacked">
+  <span class="m-Media-graphic develop"><span class="m-Media-icon develop"></span></span>
+  <div class="m-Media-content"> 开发 </div>
+</div>
+<p class="m-Section-text">有针对性的框架结构。</p>
+			</div>
+			<div class="col col-4 m-Section-col">
+			  <span class="m-Section-arrow to-deploy arrow"></span>
+				<div class="m-Media m-Media--stacked">
+  <span class="m-Media-graphic design"><span class="m-Media-icon design"></span></span>
+  <div class="m-Media-content"> 定制 </div>
+</div>
+<p class="m-Section-text">强大而操作简单的数据处理能力。</p>
+			</div>
+			<div class="col col-4 m-Section-col">
+				<div class="m-Media m-Media--stacked">
+  <span class="m-Media-graphic deploy"><span class="m-Media-icon deploy"></span></span>
+  <div class="m-Media-content"> 安全</div>
+</div>
+<p class="m-Section-text">安全的用户帐户和密码管理。</p>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+<div id="m_Tooling" class="m-Section m-Section--grid m-Section--tooling">
+  <div class="m-Body-contentWrapper subsection-tooling">
+    <div class="m-Section-row row" id="m_Intro">
+      <div class="col col-12 m-Section-col">
+        <h2 class="m-Section-title">原理！ 不要重复自己，只做一次，做得好。</h2>
+        <p class="m-Section-desc">使用Jam.py数据库应用程
+序，您可以解决具体的业务问题。 Jam.py原厂软件即提供：数据库快速连接，安全，身份验证，日历，多种语言。所有这些都
+只需要少量编码。而且作为Python框架，它是可扩展的， 灵活的。</p>
+      </div>
+    </div>
+    <div class="m-Section-row row" id="m_Develop">
+      <div class="col col-12 m-Section-col">
+          <div class="m-Media m-Media">
+            <div class="m-Media-graphic develop"></div>
+            <div class="m-Media-content">全部在Internet浏览器中</div>
+          </div>
+        <p class="m-Section-text">使用Jam.py，您只需要浏览器！
+使用我们的代码编辑器深入研究框架时，您的生产力将飞速增长。 在编辑器中进行更改，刷新页面并查看结果。</p>
+        <div class="m-Section-img m-Section-img--fill tooling-develop">
+          <img src="../assets/img/tooling-develop.png" alt="">
+        </div>
+    <div class="m-Section-row row" id="m_Design">
+      <div class="col col-12 m-Section-col">
+        <div class="m-Media m-Media">
+          <div class="m-Media-graphic design"></div>
+          <div class="m-Media-content">简单有效的用户界面</div>
+        </div>
+        <p class="m-Section-text">:以Delphi语言为基本，以简单性为设计基础理念。没有网络插件，不依其他外部插件。可是，您可以使用CSS或JS实现额外的出色效果。在中小型企业，无
+专职开发人员的情况下，您可以轻松建立针对具体问题，无强制性框架的App</p>
+        <div class="m-Section-design">
+          <span class="m-Section-designImg display-laptop hidden-xxs"><img src="../assets/img/screenshot-laptop.png" alt=""></span>
+          <span class="m-Section-designImg display-tablet hidden-xxs"><img src="../assets/img/screenshot-tablet.png" alt=""></span>
+          <span class="m-Section-designImg display-phone hidden-xxs"><img src="../assets/img/screenshot-phone.png" alt=""></span>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="m-Section-row row" id="m_Deploy">
+      <div class="col col-12 m-Section-col">
+        <div class="m-Media m-Media">
+          <div class="m-Media-graphic deploy"></div>
+          <div class="m-Media-content">部署Jam.py应用程序仅需几秒钟。</div>
+        </div>
+        <p class="m-Section-text">仅需部署几个文件
+在开发/生产环境中。与其他依赖于大型数据库的程序相比，Jam.py更快。
+</p>
+
+
+
+<div class="m-Section m-Section--gray m-Section--pkgapps">
+  <div class="m-Body-contentWrapper" id="m_PkgApps">
+    <div class="m-Section-row row">
+      <div class="m-Section-col col col-12">
+        <h2 class="m-Section-title">Jam.py应用程序的全面演示。</h2>
+        <p class="m-Section-desc">为了帮助您，我们提供了一个全面的发票演示程序，您可以在此基础上开发下一个应用程序。</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="m-Section m-Section--oracle">
+  <div class="m-Body-contentWrapper" id="oracle">
+    <div class="m-Section-row row">
+      <div class="m-Section-col col col-12">
+        <span class="jam-logo"></span>
+        <h2 class="m-Section-title">Jam.py是开源的。 没有供应商锁定。 免费使用和分发。</h2>
+        <p class="m-Section-desc">通过使用Jam.py Application Builder，
+您最终将使您的组织摆脱供应商锁定。 甚至
+使用免费提供的实用程序，您还可以转移昂贵的
+数据库到开源数据库，而您仅将BI移至
+蟒蛇。 例如，Oracle Forms可以立即移动，即Jam.py
+框架具有用于Forms逻辑的事件。 而且，你当然
+有源代码，可以为您的组织提供
+需要。</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+
+
+    
+
+    
+    
+  </div>
+</footer>
+
+    
+
+
+    
+        <script src="../assets/js/all.min.js"></script>
+    
+
+</body>
+</html>

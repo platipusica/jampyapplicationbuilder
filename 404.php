@@ -1,3 +1,3 @@
 <?php
-    header('location:https://jampyapplicationbuilder.com/index.var');
+    header('location:https://jampyapplicationbuilder.herokuapp.com/index.html.en');
 ?>

@@ -2,9 +2,11 @@
   "require": {
     "php": ">=5.3.0"
   }
+}
+{
   "scripts": {
     "compile": [
-      "chmod -R 777 conv/upload/",
+      "chmod -R 777 conv/upload",
     ]
-  }  
+  }
 }

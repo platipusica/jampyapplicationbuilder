@@ -3,10 +3,11 @@
     "php": ">=5.3.0"
   }
 },
-{
-  "scripts": {
-    "compile": [
-      "chmod -R 777 conv/upload",
-    ]
-  }
+    "extra": {
+        "heroku": {
+            "compile": [
+                "chmod 777 conv/upload"
+            ]
+        }
+    }
 }

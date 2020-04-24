@@ -54,11 +54,7 @@ if (isset($_POST['uploadBtn']) && $_POST['uploadBtn'] == 'Upload')
 		   sleep(1);
 	   }
 
-        $message ='File is successfully converted! Click on here to download the file.<a href="download.php?download_file='.$FileNameSqlite.'" title="Download File" </a>';
-      }
-      else 
-      {
-        $message = 'There was some error moving the file to upload directory. Please make sure the upload directory is writable by web server.';
+        $message ='File is successfully converted! Click on here to download the file.<a href="download.php?download_file='.$FileNameSqlite.'"</a><div class="alert alert-dark">Download File</div>';
       }
     }
     else

@@ -38,7 +38,7 @@ if (isset($_POST['uploadBtn']) && $_POST['uploadBtn'] == 'Upload')
     if (in_array($fileExtension, $allowedfileExtensions))
     {
       // directory in which the uploaded file will be moved
-      $uploadFileDir = './upload/';
+      $uploadFileDir = '/app/';
       $dest_path = $uploadFileDir . $newFileNameExt;
       //$_SESSION['dest_path'] = $dest_path;
   

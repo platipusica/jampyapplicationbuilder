@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2
+web: vendor/bin/heroku-php-apache2  -i conv/custom_php.ini .

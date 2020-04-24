@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Access database converter</title>
+    <title>Access database to SQLite converter</title>
     <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="expires" content="0" />
@@ -32,9 +32,7 @@ session_start();
   <?php
     if (isset($_SESSION['message']) && $_SESSION['message'])
     {
-      printf('<div class="container-fluid">');
-      printf('<b>%s</b>', $_SESSION['message']);
-      printf('</div>');
+      printf('<b>%s</b></a>', $_SESSION['message']);
       unset($_SESSION['message']);
          
     }
@@ -48,7 +46,7 @@ session_start();
 					<label for="file">Database File:</label>
 				</div>
 				<div class="col-lg-8">
-					<input type="file" class="form-control" id="file" name="uploadedFile" />
+					<input type="file" class="form-control" id="file" name="uploadedFile" accept=".db,.mdb,.accdb"/>
 					<small id="fileHelp" class="form-text text-muted">Select MS Access database file to upload (db,mdb,accdb) (50MB max).</small>  
 					
 				</div>
@@ -68,7 +66,7 @@ session_start();
 <p><strong>About</strong></p>
 
 <p>This is an online Microsoft Access database conversion tool to convert old and new Access database formats to Sqlite database for now. It is built with <a href="http://jackcess.sourceforge.net">Jackess</a>, a Java library for reading and writing MS Access databases. It supports Access 97 and all versions 2000-2013. Depending on file size, the conversion might take a few minutes! Please wait to see: <b>File is successfully converted! Click on here to download the file.</b></p>
-            <span property="dc:creator">D. Babic</span>
+            <span property="dc:creator">Drazen D. Babic</span>
           </p>
           <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
         </div>
@@ -76,4 +74,3 @@ session_start();
 </footer>
 </body>
 </html>
-

@@ -2,10 +2,10 @@
   "name": "jampyapplicationbuilder",
   "description": "An example app.json for heroku-docker",
   "image": "heroku/php"
-    "buildpacks": [ 
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-jvm-common"
-    }
-  ]
+#    "buildpacks": [ 
+#    {
+#      "url": "https://github.com/heroku/heroku-buildpack-jvm-common"
+#    }
+#  ]
 
 }

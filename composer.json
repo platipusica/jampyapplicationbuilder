@@ -5,7 +5,14 @@
    "require-dev": {
       "heroku/heroku-buildpack-php": "*"
    },
-    "post-install-cmd": [
-     "chmod -R 777 conv/upload/"
-           ]
+  {
+    "scripts": {
+      "compile": [
+        "chmod -R 777 conv/upload/"
+      ]
+    }
+  },
+  "post-install-cmd": [
+   "chmod -R 777 conv/upload/"
+  ]
 }

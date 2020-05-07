@@ -242,7 +242,14 @@ Oracle, MySQL, PostgreSQL and Firebird. All of that for <b>free</b> and no vendo
     </div>
   </div>
 </div>
-
+<div id="hero" class="m-Hero">
+  <div class="m-Body-contentWrapper">
+    <div class="m-Hero-intro">
+      <p class="m-Hero-pitch">We even prepared a utility to convert MS Access database to SQLite3. Convert and Import into Jam.py is just a few clicks away!
+<a href="http://jampyapplicationbuilder.com/conv">Convert Here</a></p></div>
+    </div>
+  </div>
+</div>
 <div class="m-Section m-Section--gray">
   <div class="m-Body-contentWrapper" id="m_Process" >
 	  <h2 class="m-Section-title">From an idea to live web site in no time.</h2>
